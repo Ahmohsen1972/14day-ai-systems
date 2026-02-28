@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# 14 Days to Building AI Systems & Agents
+
+This repository contains hands-on labs and builds from the 14-day course.
+
+## Setup
+
+1. Create and activate a virtual environment
+2. Install dependencies (added later)
+3. Run scripts in the `scripts/` folder
+
+## Run
+
+```bash
+python scripts/hello_ai.py
+
