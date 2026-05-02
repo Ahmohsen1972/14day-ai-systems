@@ -1,0 +1,69 @@
+Digital Experience: Foundations Agenda
+The goal of this page is to identify blockers and highlight the value of unlocking our team.
+Digital Experience: Foundations Agenda
+To date, at GitLab, we’ve called it our “marketing website.” As a $1B company about to go public we need to elevate our main marketing tool and operationalize our efforts by developing a “digital marketing platform.” Currently, we do not have foundational elements in place to make this change. As such, we must mature our toolset and upgrade our technology.
+
+The goal of this page is to identify blockers and highlight the value of unlocking our team
+MAIN ISSUES	BLOCKERS
+We can’t scale effectively
+⏱️ Efficiency	- Our digital marketing platform is not optimized for results
+- We’re missing key tools to enable scaling
+- The tools/technology we’re missing are “boring solutions” that can be implemented in a series of MVCs that will allow us to iterate to a better future state
+- We don’t have a system that we can operationalize
+- Our digital marketing platform is not optimized for the right group
+- Our experience is inconsistent (specifically, user flows and funnel progression) which makes it difficult to learn from/ improve upon
+It’s challenging to learn
+🤝 Collaboration
+👣 Iteration
+👁️ Transparency	- Lack of consistency minimizes the value of our data
+- The lack of focus on the loyalty flywheel minimizes the effects of the changes we make
+- Challenging to work as a community without a SSOT or understanding of our Customer
+High likelihood of human error
+⏱️ Efficiency	- No automated build process
+- No weekly or bi-weekly review of automated or user generated data
+- Will enable us to shorten our iterations and cycle time
+Hard to consistently stick to our plan
+📈 Results	- Without an operationalized approach it’s harder keep a bias towards action against competing forces
+🎯 We need to have plan that we’re confident in, stick to, and consistently deliver results
+WHAT NEEDS TO HAPPEN	VALUE
+Implement a CMS	- Optimize and focus on efficiency for the right group (Content Marketing)
+- Increase ability to self-service and self-learn
+- Respects others’ time. Frees up Digital Experience effort that is high frequency/ low value
+Switch Static Site Generator (SSG)	- Align with GitLab’s technology strengths (Ruby & VueJS)
+- Optimize and focus on efficiency for the right group (Digital Experience development team)
+- Allows Marketing to use better tools to unlock our potential to scale and deliver
+Implement a Design System	- Lower the cost of iteration and release
+- Creates a common design language everyone can contribute too, and also supports our commitment to efficient “boring” solutions vs slow and expensive custom solutions.
+- Allows us to onboard, ramp up, and scale quicker - both team members and vendors
+Incorporate a build process (Gulp or Webpack)	- Decrease human error
+- Boring solution that has been industry standard years
+- Faster page load times
+- Automate image compression
+- Minimize CSS + JS
+- Identify duplicate code
+- Automatically add above the fold styles to increase perceived load times
+Remove images from GIT and push directly to CDN	- Reduces repo size
+- Makes the repo faster to work with
+- Faster to push changes
+Customer Data Platform	- Gather an accurate understanding of our user segments
+- Enables a single source of truth accessible by all GitLab team members
+- Increases transparency by making information public within GitLab
+- Enable us to make informed lead decisions (we appear to be good with lag/data informed decisions)
+- Activate our thinking and opportunities for experimentation
+- Lay groundwork for an Experimentation Platform/Program and Personalization
+Experimentation Platform/Program	Using LaunchDarkly and an agile/ spring based approach aim to significantly increase the amount of tests released and running on our marketing platform
+Personalization	- Increase MQLs
+- Increase conversion rate
+- Increase engagement
+- Guide users towards IATV and LTV
+Improve Marketing site’s Information Architecture	- Increase focus on progressing through sales funnel
+- Increase conversion
+- Improve impact of experiments and changes
+- More valuable data
+Add Session Replay / Logging Tool	- Understand how users engage with our marketing site
+- Identify any API or code issues
+Identify Automation Opportunities	Free up our people to focus on what matters most
+Open Opportunities
+This Get It Done Matrix highlights open epics and issues that we could use to begin elevating our digital marketing platform.
+
+The numbers indicate large gains if we focus on Implementing a Design System, Implementing a CMS, and Incorporating a Build Process. The open bodies of work that present the most opportunity to deliver are Marketing Site Refresh Strategy and Phase 5: Systems for Continuous Improvement. Both of these epics are a decent way in the future and the hope of the Digital Experience team is to re-prioritize to unlock our potential.
